@@ -83,7 +83,7 @@ $(document).ready(function () {
 
 function FillDataList()
 {
-        $.getJSON("https://script.google.com/macros/s/"+AppsScriptLink+"/exec?page=dropdown",
+        $.getJSON("https://script.google.com/macros/s/AKfycbwc1JebZAAz0A6L-_3mhF7f1T2jjwODDx1GlNi8r8wRDIBQ8ahox33HrSJ2pOSqI03w/exec?page=dropdown",
        
         function (data) {
 
@@ -101,7 +101,7 @@ function FillDataList()
 
 function MaxInv()
 {
-        $.getJSON("https://script.google.com/macros/s/"+AppsScriptLink+"/exec?page=max",
+        $.getJSON("https://script.google.com/macros/s/AKfycbwc1JebZAAz0A6L-_3mhF7f1T2jjwODDx1GlNi8r8wRDIBQ8ahox33HrSJ2pOSqI03w/exec?page=max",
         function (data) {
          
           $("input[name='inv_no']").val(data);
@@ -159,7 +159,7 @@ function Search(pNo="")
 
 		if (pNo != "") no = pNo;
 
-        $.getJSON("https://script.google.com/macros/s/"+AppsScriptLink+"/exec?page=search&no="+no,
+        $.getJSON("https://script.google.com/macros/s/AKfycbwc1JebZAAz0A6L-_3mhF7f1T2jjwODDx1GlNi8r8wRDIBQ8ahox33HrSJ2pOSqI03w/exec?page=search&no="+no,
         function (data) {
 
          
@@ -223,7 +223,7 @@ function ShowAllData()
 {
 	$(document).ready(function (){
 		
-		$.getJSON("https://script.google.com/macros/s/"+AppsScriptLink+"/exec?page=all",
+		$.getJSON("https://script.google.com/macros/s/AKfycbwc1JebZAAz0A6L-_3mhF7f1T2jjwODDx1GlNi8r8wRDIBQ8ahox33HrSJ2pOSqI03w/exec?page=all",
         function (data) {
 	
 		var Table="", Rows="", Columns="";
